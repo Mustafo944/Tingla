@@ -197,6 +197,9 @@ body {
 .nav_list li a {
   text-decoration: none;
 }
+.foot_content_mobile{
+  display: none;
+}
 @media (max-width: 776px) {
   .logo {
     margin-top: 81px;
@@ -301,12 +304,13 @@ body {
     margin-bottom: 36px;
     line-height: 30px;
   }
-
+  .four_right{
+    display: flex;
+    justify-content: center;
+  }
   .four_right img {
-    margin-left: 49px;
     width: 288px;
     height: 516px;
-    padding-right: 20px;
   }
   .five_content {
     flex-direction: column;
@@ -314,59 +318,47 @@ body {
     border-radius: 10px;
     margin-top: 196px;
   }
+  .five_left{
+    display: flex;
+    justify-content: center;
+  }
   .five_left img {
     width: 302px;
     height: 369px;
     margin-top: -123px;
-    padding-right: 32px;
+    margin-left: 0;
   }
 
   .five_right {
     margin-top: 32px;
-    margin-left: 24px;
+    margin-left: 0 px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .five_right h2 {
-    font-size: 26px;
+    font-size: 18px;
   }
   .five_right img {
     margin-top: 32px;
     gap: 10px;
+    width: 122px;
   }
-  .foot_content {
-    margin-top: 236px;
+  .foot_content{
+    display: none;
   }
-  .foot_left p {
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 117px;
-    margin-bottom: 40px;
-    color: #000000;
-  }
-  .foot_center {
-    margin-top: 52px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    position: absolute;
-  }
-  .foot_right {
+  .foot_content_mobile{
+    display: block;
+    margin-top: 140px;
     display: flex;
-    flex-direction: column-reverse;
   }
-  .right_one img {
-    margin-bottom: 350px;
-    width: 202px;
-    margin-left: 47px;
-  }
-  .right_two img {
-    margin-left: 132px;
-    width: 112px;
-  }
-  .nav_list li {
-    color: black;
-    list-style: none;
-  }
-  .three_right{
-    margin-left: 0;
-  }
+
+
+
+
+
+
+
+
+
 }
